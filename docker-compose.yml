@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  httpd-metric:
+    build: ./
+    image: mxhash/httpd-metric
+    container_name: httpd-metric
+    ports:
+      - 8080:80
+      - 8081:443

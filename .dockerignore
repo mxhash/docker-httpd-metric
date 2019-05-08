@@ -1,0 +1,7 @@
+# Everything
+*
+.*
+
+# Needed
+!httpd.conf
+!htdocs/
